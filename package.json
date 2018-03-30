@@ -1,0 +1,23 @@
+{
+  "name": "lab03",
+  "version": "1.0.0",
+  "description": "Read and write (update) large Data file",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngdhuy/FIT_HCMUS_2018_CNXML_Lab03.git"
+  },
+  "keywords": [
+    "cnxml",
+    "xml"
+  ],
+  "author": "ndhuy - Huy NGUYEN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngdhuy/FIT_HCMUS_2018_CNXML_Lab03/issues"
+  },
+  "homepage": "https://github.com/ngdhuy/FIT_HCMUS_2018_CNXML_Lab03#readme"
+}
