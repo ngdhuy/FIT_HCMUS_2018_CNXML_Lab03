@@ -1,6 +1,7 @@
 var app = require('http')
 var fs = require('fs')
-var port = 3000
+
+var port = 3002
 
 app.createServer((req, res) => {
     console.log(`${req.method} ${req.url}`);
@@ -49,5 +50,5 @@ app.createServer((req, res) => {
     if(err != null)
         console.log('==> Error: ' + err)
     else
-        console.log('Server is starting at port 3000')
+        console.log('Server is starting at port ' + port)
 })
